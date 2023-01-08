@@ -11,17 +11,23 @@
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@types/adm-zip": "^0.5.0",
     "@types/jest": "^29.2.4",
     "@types/node": "18.11.15",
+    "aws-cdk": "2.58.1",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.3",
-    "aws-cdk": "2.58.1",
     "ts-node": "^10.9.1",
     "typescript": "~4.9.4"
   },
   "dependencies": {
+    "@aws-cdk/aws-appsync-alpha": "^2.58.1-alpha.0",
+    "adm-zip": "^0.5.10",
+    "aws-appsync": "^4.1.9",
     "aws-cdk-lib": "2.58.1",
+    "aws-sdk": "^2.1286.0",
     "constructs": "^10.0.0",
+    "graphql-tag": "^2.12.6",
     "source-map-support": "^0.5.21"
   }
 }
